@@ -1,27 +1,20 @@
 #ifndef STATE_H
 #define STATE_H
 
+#include "State.h"
 
 class State
 {
     public:
+
         State();
         virtual ~State();
 
-        virtual run();
-        virtual changeState(state_ state);
+//        virtual run(StateMachine * currentState);
 
     protected:
 
     private:
-
-        enum state_{
-        FREEZING,
-        SETTINGS,
-        IDLE
-        };
-
-        state_ m_state;
 
 };
 

@@ -9,3 +9,7 @@ IdleState::~IdleState()
 {
     //dtor
 }
+
+IdleState::run(){
+
+}

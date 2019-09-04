@@ -9,3 +9,5 @@ SettingsState::~SettingsState()
 {
     //dtor
 }
+
+SettingsState::run(){}

@@ -1,8 +1,7 @@
 #ifndef IDLESTATE_H
 #define IDLESTATE_H
 
-#include <State.h>
-
+#include "State.h"
 
 class IdleState : public State
 {
@@ -11,7 +10,6 @@ class IdleState : public State
         virtual ~IdleState();
 
         virtual run();
-        virtual changeState(state_ state);
 
     protected:
 
