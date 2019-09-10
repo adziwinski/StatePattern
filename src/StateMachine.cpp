@@ -24,14 +24,14 @@ void StateMachine::changeState(state_ state){
 //    std::cout << "changing from " << m_pState->GetName() << " to ";
 	delete m_pState;
 
-//    if (state==IDLE){
-//        m_pState = new IdleState();
-//    }
-//    if (state==SETTINGS){
-//        m_pState = new SettingsState();
-//    }
-//    if (state==FREEZING){
-//        m_pState = new FreezingState();
-//    }
+    if (state==IDLE){
+        m_pState = new IdleState();
+    }
+    if (state==SETTINGS){
+        m_pState = new SettingsState();
+    }
+    if (state==FREEZING){
+        m_pState = new FreezingState();
+    }
 }
 

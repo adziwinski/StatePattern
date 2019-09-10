@@ -2,6 +2,9 @@
 #define STATEMACHINE_H
 
 #include "State.h"
+#include "IdleState.h"
+#include "SettingsState.h"
+#include "FreezingState.h"
 
  class State;
 

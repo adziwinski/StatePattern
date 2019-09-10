@@ -1,7 +1,6 @@
 #ifndef STATE_H
 #define STATE_H
 
-#include "StateMachine.h"
 #include "State.h"
 
 class State
