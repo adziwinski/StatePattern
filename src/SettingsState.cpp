@@ -10,4 +10,4 @@ SettingsState::~SettingsState()
     //dtor
 }
 
-SettingsState::run(){}
+void SettingsState::run(StateMachine * stateMachine){}

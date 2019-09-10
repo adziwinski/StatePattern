@@ -2,6 +2,7 @@
 #define IDLESTATE_H
 
 #include "State.h"
+#include "StateMachine.h"
 
 class IdleState : public State
 {
@@ -9,7 +10,7 @@ class IdleState : public State
         IdleState();
         virtual ~IdleState();
 
-        virtual run();
+        virtual void run(StateMachine * stateMachine);
 
     protected:
 

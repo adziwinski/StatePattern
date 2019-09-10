@@ -8,7 +8,7 @@ class FreezingState : public State
     public:
         FreezingState();
         virtual ~FreezingState();
-        virtual run();
+        virtual void run(StateMachine * stateMachine);
 
     protected:
 

@@ -9,7 +9,7 @@ class SettingsState : public State
         SettingsState();
         virtual ~SettingsState();
 
-        virtual run();
+        virtual void run(StateMachine * stateMachine);
 
     protected:
 

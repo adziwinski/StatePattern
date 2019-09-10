@@ -10,6 +10,6 @@ IdleState::~IdleState()
     //dtor
 }
 
-IdleState::run(){
+void IdleState::run(StateMachine * stateMachine){
 
 }

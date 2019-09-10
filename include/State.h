@@ -1,7 +1,11 @@
 #ifndef STATE_H
 #define STATE_H
 
-#include "State.h"
+//#include "IdleState.h"
+//#include "SettingsState.h"
+//#include "FreezingState.h"
+//#include "StateMachine.h"
+class StateMachine;
 
 class State
 {
@@ -10,7 +14,7 @@ class State
         State();
         virtual ~State();
 
-//        virtual run(StateMachine * currentState) = 0;
+        virtual void run(StateMachine * stateMachine) = 0;
 
     protected:
 

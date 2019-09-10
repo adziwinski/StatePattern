@@ -10,6 +10,6 @@ FreezingState::~FreezingState()
     //dtor
 }
 
-FreezingState::run(){
+void FreezingState::run(StateMachine * stateMachine){
 
 }

@@ -1,5 +1,8 @@
 #include "StateMachine.h"
 #include <iostream>
+#include "IdleState.h"
+#include "SettingsState.h"
+#include "FreezingState.h"
 
 using namespace std;
 
@@ -25,6 +28,7 @@ void StateMachine::changeState(state_ state){
 	delete m_pState;
 
     if (state==IDLE){
+//        m_pState = static_cast<IdleState*> (new IdleState());
         m_pState = new IdleState();
     }
     if (state==SETTINGS){
