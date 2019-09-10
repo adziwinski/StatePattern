@@ -19,11 +19,11 @@ class StateMachine
 
         virtual ~StateMachine();
 
-//        void run();
+        void run();
 //        void myBegin();
 //        void myEnd();
 
-//        virtual changeState(state_ state);
+        void changeState(state_ state);
 
 
     protected:
