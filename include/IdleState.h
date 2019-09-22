@@ -12,6 +12,9 @@ class IdleState : public State
 
         virtual void run(StateMachine * stateMachine);
 
+//        virtual void standby(StateMachine * stateMachine);
+
+
     protected:
 
     private:

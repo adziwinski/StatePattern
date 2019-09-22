@@ -7,19 +7,20 @@
 using namespace std;
 
 
-StateMachine::StateMachine()
+StateMachine::StateMachine(): m_pState(new IdleState())
 {
     //ctor
 }
 
 StateMachine::~StateMachine()
 {
-    //dtor
+    delete m_pState;
 }
 
 void StateMachine::run(){
+
     cout<<"StateMachine::run()"<<endl;
-//    m_pState->
+    m_pState->run(this);
 }
 
 void StateMachine::changeState(state_ state){

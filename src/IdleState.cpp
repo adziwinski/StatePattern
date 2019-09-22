@@ -1,6 +1,6 @@
 #include "IdleState.h"
 
-IdleState::IdleState()
+IdleState::IdleState():State("Idle")
 {
     //ctor
 }
@@ -13,3 +13,8 @@ IdleState::~IdleState()
 void IdleState::run(StateMachine * stateMachine){
 
 }
+
+//void IdleState::standby(StateMachine * stateMachine){
+//    stateMachine->changeState(StateMachine::STANDBY);
+//}
+

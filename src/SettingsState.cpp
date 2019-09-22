@@ -1,6 +1,6 @@
 #include "SettingsState.h"
 
-SettingsState::SettingsState()
+SettingsState::SettingsState():State("Settings")
 {
     //ctor
 }
@@ -11,3 +11,10 @@ SettingsState::~SettingsState()
 }
 
 void SettingsState::run(StateMachine * stateMachine){}
+
+//void SettingsState::standby(StateMachine * stateMachine){
+//    stateMachine->changeState(StateMachine::STANDBY);
+//}
+//void SettingsState::ready(StateMachine * stateMachine){
+//    stateMachine->changeState(StateMachine::STANDBY);
+//}
