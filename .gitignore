@@ -42,11 +42,6 @@
 *.idb
 *.pdb
 
-# Environment files
-*.cbp
-*.depend
-*.layout
-
 # Kernel Module Compile Results
 *.mod*
 *.cmd

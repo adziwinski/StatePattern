@@ -1,10 +1,10 @@
-#include "StateMachine.h"
+#include "../include/StateMachine.h"
 #include <iostream>
-#include "IdleState.h"
-#include "SettingsState.h"
-#include "FreezingState.h"
-#include "ReadyState.h"
-#include "StandbyState.h"
+#include "../include/IdleState.h"
+#include "../include/SettingsState.h"
+#include "../include/FreezingState.h"
+#include "../include/ReadyState.h"
+#include "../include/StandbyState.h"
 
 using namespace std;
 

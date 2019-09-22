@@ -1,4 +1,4 @@
-#include "State.h"
+#include "../include/State.h"
 #include <iostream>
 
 State::State(std::string name): m_name(name)
