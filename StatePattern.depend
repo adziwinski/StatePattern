@@ -54,3 +54,7 @@
 	"../include/ReadyState.h"
 	"../include/StandbyState.h"
 
+1569195990 source:d:\git\statepattern\statepattern\main.cpp
+	"include/StateMachine.h"
+	<iostream>
+
