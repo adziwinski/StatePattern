@@ -12,9 +12,10 @@ SettingsState::~SettingsState()
 
 void SettingsState::run(StateMachine * stateMachine){}
 
-//void SettingsState::standby(StateMachine * stateMachine){
-//    stateMachine->changeState(StateMachine::STANDBY);
-//}
-//void SettingsState::ready(StateMachine * stateMachine){
-//    stateMachine->changeState(StateMachine::STANDBY);
-//}
+void SettingsState::standby(StateMachine * stateMachine){
+    stateMachine->changeState(StateMachine::STANDBY);
+}
+
+void SettingsState::ready(StateMachine * stateMachine){
+    stateMachine->changeState(StateMachine::READY);
+}

@@ -10,9 +10,11 @@ class StateMachine
     public:
 
         enum state_{
+            IDLE,
+            STANDBY,
+            READY,
             FREEZING,
-            SETTINGS,
-            IDLE
+            SETTINGS
         };
 
         StateMachine();

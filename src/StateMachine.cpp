@@ -3,6 +3,8 @@
 #include "IdleState.h"
 #include "SettingsState.h"
 #include "FreezingState.h"
+#include "ReadyState.h"
+#include "StandbyState.h"
 
 using namespace std;
 
@@ -25,18 +27,26 @@ void StateMachine::run(){
 
 void StateMachine::changeState(state_ state){
 
-//    std::cout << "changing from " << m_pState->GetName() << " to ";
+    std::cout << "changing from " << m_pState->getName() << " to ";
 	delete m_pState;
 
     if (state==IDLE){
-//        m_pState = static_cast<IdleState*> (new IdleState());
         m_pState = new IdleState();
+    }
+    if (state==STANDBY){
+        m_pState = new SettingsState();
+    }
+//    if (state==READY){
+//        m_pState = new ReadyState();
+//    }
+    if (state==FREEZING){
+        m_pState = new FreezingState();
     }
     if (state==SETTINGS){
         m_pState = new SettingsState();
     }
-    if (state==FREEZING){
-        m_pState = new FreezingState();
-    }
+
+
+    std::cout << m_pState->getName() << " state\n";
 }
 

@@ -14,6 +14,6 @@ void FreezingState::run(StateMachine * stateMachine){
 
 }
 
-//void FreezingState::ready(StateMachine * stateMachine){
-//    stateMachine->changeState(StateMachine::READY);
-//}
+void FreezingState::ready(StateMachine * stateMachine){
+    stateMachine->changeState(StateMachine::READY);
+}

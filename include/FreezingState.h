@@ -2,6 +2,7 @@
 #define FREEZINGSTATE_H
 
 #include "State.h"
+#include "StateMachine.h"
 
 class FreezingState : public State
 {
@@ -10,7 +11,7 @@ class FreezingState : public State
         virtual ~FreezingState();
         virtual void run(StateMachine * stateMachine);
 
-//        virtual void ready(StateMachine * stateMachine);
+        virtual void ready(StateMachine * stateMachine);
 
     protected:
 
