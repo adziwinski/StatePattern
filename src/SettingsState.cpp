@@ -1,4 +1,4 @@
-#include "SettingsState.h"
+#include "../include/SettingsState.h"
 
 SettingsState::SettingsState():State("Settings")
 {

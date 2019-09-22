@@ -1,4 +1,4 @@
-#include "IdleState.h"
+#include "../include/IdleState.h"
 
 IdleState::IdleState():State("Idle")
 {

@@ -1,5 +1,5 @@
+#include "include/StateMachine.h"
 #include <iostream>
-#include "StateMachine.h"
 
 using namespace std;
 

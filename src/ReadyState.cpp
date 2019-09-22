@@ -1,4 +1,4 @@
-#include "ReadyState.h"
+#include "../include/ReadyState.h"
 
 ReadyState::ReadyState():State("Ready")
 {
