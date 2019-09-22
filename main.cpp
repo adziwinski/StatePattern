@@ -7,7 +7,9 @@ int main()
 {
     StateMachine stateMachine;
 
-    stateMachine.run();
-    cout << "Hello world!" << endl;
+    stateMachine.idle();
+    stateMachine.standby();
+    stateMachine.freezing();
+
     return 0;
 }

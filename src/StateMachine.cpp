@@ -25,6 +25,12 @@ void StateMachine::run(){
     m_pState->run(this);
 }
 
+void StateMachine::idle(){this->changeState(IDLE);}
+void StateMachine::standby(){this->changeState(STANDBY);}
+void StateMachine::ready(){this->changeState(READY);}
+void StateMachine::freezing(){this->changeState(FREEZING);}
+void StateMachine::settings(){this->changeState(SETTINGS);}
+
 void StateMachine::changeState(state_ state){
 
     std::cout << "changing from " << m_pState->getName() << " to ";
@@ -36,9 +42,9 @@ void StateMachine::changeState(state_ state){
     if (state==STANDBY){
         m_pState = new SettingsState();
     }
-//    if (state==READY){
-//        m_pState = new ReadyState();
-//    }
+    if (state==READY){
+        m_pState = new ReadyState();
+    }
     if (state==FREEZING){
         m_pState = new FreezingState();
     }

@@ -22,8 +22,12 @@ class StateMachine
         virtual ~StateMachine();
 
         void run();
-//        void myBegin();
-//        void myEnd();
+
+        void idle();
+        void standby();
+        void ready();
+        void freezing();
+        void settings();
 
         void changeState(state_ state);
 
