@@ -2,7 +2,12 @@
 #define STATEMACHINE_H
 
 #include "State.h"
-//
+#include "../include/IdleState.h"
+#include "../include/SettingsState.h"
+#include "../include/FreezingState.h"
+#include "../include/ReadyState.h"
+#include "../include/StandbyState.h"
+
 class State;
 
 class StateMachine
@@ -19,7 +24,7 @@ class StateMachine
 
         StateMachine();
 
-        virtual ~StateMachine();
+//        virtual ~StateMachine();
 
         void run();
 
@@ -36,7 +41,12 @@ class StateMachine
 
     private:
 
-        State * m_pState;
+    State * m_pState;
+    State * m_pIdle;
+    State * m_pStandby;
+    State * m_pReady;
+    State * m_pFreezing;
+    State * m_pSettings;
 };
 
 #endif // STATEMACHINE_H

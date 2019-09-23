@@ -19,6 +19,6 @@ void StandbyState::settings(StateMachine * stateMachine){
 }
 
 void StandbyState::ready(StateMachine * stateMachine){
-    stateMachine->changeState(StateMachine::STANDBY);
+    stateMachine->changeState(StateMachine::READY);
 }
 

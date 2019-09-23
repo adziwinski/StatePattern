@@ -9,8 +9,13 @@
 1569171179 d:\git\statepattern\statepattern\include\state.h
 	<string>
 
-1569193096 d:\git\statepattern\statepattern\include\statemachine.h
+1569200767 d:\git\statepattern\statepattern\include\statemachine.h
 	"State.h"
+	"../include/IdleState.h"
+	"../include/SettingsState.h"
+	"../include/FreezingState.h"
+	"../include/ReadyState.h"
+	"../include/StandbyState.h"
 
 1569195798 source:d:\git\statepattern\statepattern\src\freezingstate.cpp
 	"../include/FreezingState.h"
@@ -34,7 +39,7 @@
 	"StateMachine.h"
 	<string>
 
-1569195824 source:d:\git\statepattern\statepattern\src\standbystate.cpp
+1569200570 source:d:\git\statepattern\statepattern\src\standbystate.cpp
 	"../include/StandbyState.h"
 
 1569193096 d:\git\statepattern\statepattern\include\standbystate.h
@@ -45,14 +50,9 @@
 	"../include/State.h"
 	<iostream>
 
-1569195929 source:d:\git\statepattern\statepattern\src\statemachine.cpp
+1569200757 source:d:\git\statepattern\statepattern\src\statemachine.cpp
 	"../include/StateMachine.h"
 	<iostream>
-	"../include/IdleState.h"
-	"../include/SettingsState.h"
-	"../include/FreezingState.h"
-	"../include/ReadyState.h"
-	"../include/StandbyState.h"
 
 1569195990 source:d:\git\statepattern\statepattern\main.cpp
 	"include/StateMachine.h"
