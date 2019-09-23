@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="class_settings_state" kind="class" language="C++" prot="public">
+    <compoundname>SettingsState</compoundname>
+    <basecompoundref refid="class_state" prot="public" virt="non-virtual">State</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_settings_state_1a0039be756cbdc958613eca25edb2cb99" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SettingsState::SettingsState</definition>
+        <argsstring>()</argsstring>
+        <name>SettingsState</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/StatePattern/StatePattern/include/SettingsState.h" line="11" column="9" bodyfile="D:/git/StatePattern/StatePattern/src/SettingsState.cpp" bodystart="3" bodyend="6"/>
+      </memberdef>
+      <memberdef kind="function" id="class_settings_state_1ad4644afc565db26be22a49189b1a4189" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>SettingsState::~SettingsState</definition>
+        <argsstring>()</argsstring>
+        <name>~SettingsState</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/StatePattern/StatePattern/include/SettingsState.h" line="12" column="17" bodyfile="D:/git/StatePattern/StatePattern/src/SettingsState.cpp" bodystart="8" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="function" id="class_settings_state_1aa0375b093bf59772d09fbbb9673c56a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void SettingsState::run</definition>
+        <argsstring>(StateMachine *stateMachine)</argsstring>
+        <name>run</name>
+        <reimplements refid="class_state_1a1b5758d9085b94efb79b2ae0c08e1f8f">run</reimplements>
+        <param>
+          <type><ref refid="class_state_machine" kindref="compound">StateMachine</ref> *</type>
+          <declname>stateMachine</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/StatePattern/StatePattern/include/SettingsState.h" line="14" column="22" bodyfile="D:/git/StatePattern/StatePattern/src/SettingsState.cpp" bodystart="13" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="class_settings_state_1a7ce6211f9229d5e4375613c5379ce00f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void SettingsState::standby</definition>
+        <argsstring>(StateMachine *stateMachine)</argsstring>
+        <name>standby</name>
+        <reimplements refid="class_state_1a8168a2663f5ffd69111a389bc1f0a55d">standby</reimplements>
+        <param>
+          <type><ref refid="class_state_machine" kindref="compound">StateMachine</ref> *</type>
+          <declname>stateMachine</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/StatePattern/StatePattern/include/SettingsState.h" line="16" column="22" bodyfile="D:/git/StatePattern/StatePattern/src/SettingsState.cpp" bodystart="15" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_settings_state_1ab6d3bfaee56f2a6349649b2c15418e95" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void SettingsState::ready</definition>
+        <argsstring>(StateMachine *stateMachine)</argsstring>
+        <name>ready</name>
+        <reimplements refid="class_state_1a56fdf379cb521c3cf6af32351c4c93fe">ready</reimplements>
+        <param>
+          <type><ref refid="class_state_machine" kindref="compound">StateMachine</ref> *</type>
+          <declname>stateMachine</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/StatePattern/StatePattern/include/SettingsState.h" line="17" column="22" bodyfile="D:/git/StatePattern/StatePattern/src/SettingsState.cpp" bodystart="19" bodyend="21"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>SettingsState</label>
+        <link refid="class_settings_state"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>State</label>
+        <link refid="class_state"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>SettingsState</label>
+        <link refid="class_settings_state"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>State</label>
+        <link refid="class_state"/>
+      </node>
+    </collaborationgraph>
+    <location file="D:/git/StatePattern/StatePattern/include/SettingsState.h" line="9" column="1" bodyfile="D:/git/StatePattern/StatePattern/include/SettingsState.h" bodystart="8" bodyend="22"/>
+    <listofallmembers>
+      <member refid="class_state_1abb3b96c3af31002d1fa14b158b25fbe6" prot="public" virt="virtual"><scope>SettingsState</scope><name>freezineg</name></member>
+      <member refid="class_state_1a03dfdcd7ce1eb54be168b27e7141e39c" prot="public" virt="non-virtual"><scope>SettingsState</scope><name>getName</name></member>
+      <member refid="class_state_1a96d293f9fbe271a9729814c68ad1d675" prot="public" virt="virtual"><scope>SettingsState</scope><name>idle</name></member>
+      <member refid="class_settings_state_1ab6d3bfaee56f2a6349649b2c15418e95" prot="public" virt="virtual"><scope>SettingsState</scope><name>ready</name></member>
+      <member refid="class_settings_state_1aa0375b093bf59772d09fbbb9673c56a5" prot="public" virt="virtual"><scope>SettingsState</scope><name>run</name></member>
+      <member refid="class_state_1a3789289ed733d94430f848be012b83f5" prot="public" virt="virtual"><scope>SettingsState</scope><name>settings</name></member>
+      <member refid="class_settings_state_1a0039be756cbdc958613eca25edb2cb99" prot="public" virt="non-virtual"><scope>SettingsState</scope><name>SettingsState</name></member>
+      <member refid="class_settings_state_1a7ce6211f9229d5e4375613c5379ce00f" prot="public" virt="virtual"><scope>SettingsState</scope><name>standby</name></member>
+      <member refid="class_state_1a42e234d79ea59b0b88957b20b8796c3f" prot="public" virt="non-virtual"><scope>SettingsState</scope><name>State</name></member>
+      <member refid="class_settings_state_1ad4644afc565db26be22a49189b1a4189" prot="public" virt="virtual"><scope>SettingsState</scope><name>~SettingsState</name></member>
+      <member refid="class_state_1afab438d92b90dc18d194dbd9c9c8bab3" prot="public" virt="virtual"><scope>SettingsState</scope><name>~State</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

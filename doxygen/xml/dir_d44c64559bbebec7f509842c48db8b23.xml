@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="dir_d44c64559bbebec7f509842c48db8b23" kind="dir">
+    <compoundname>D:/git/StatePattern/StatePattern/include</compoundname>
+    <innerfile refid="_freezing_state_8h">FreezingState.h</innerfile>
+    <innerfile refid="_idle_state_8h">IdleState.h</innerfile>
+    <innerfile refid="_ready_state_8h">ReadyState.h</innerfile>
+    <innerfile refid="_settings_state_8h">SettingsState.h</innerfile>
+    <innerfile refid="_standby_state_8h">StandbyState.h</innerfile>
+    <innerfile refid="_state_8h">State.h</innerfile>
+    <innerfile refid="_state_machine_8h">StateMachine.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/git/StatePattern/StatePattern/include/"/>
+  </compounddef>
+</doxygen>

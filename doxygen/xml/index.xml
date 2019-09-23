@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.16">
+  <compound refid="class_freezing_state" kind="class"><name>FreezingState</name>
+    <member refid="class_freezing_state_1a2351da4b7a2ec5397fb3e57620746d9d" kind="function"><name>FreezingState</name></member>
+    <member refid="class_freezing_state_1a80d1f5e0aad4ba9ac9646b22e39e7deb" kind="function"><name>~FreezingState</name></member>
+    <member refid="class_freezing_state_1aef68f7efbdd33da08b2db5670ba453f9" kind="function"><name>run</name></member>
+    <member refid="class_freezing_state_1a199ae53de8664a77f666c74cc47631ca" kind="function"><name>ready</name></member>
+  </compound>
+  <compound refid="class_idle_state" kind="class"><name>IdleState</name>
+    <member refid="class_idle_state_1a2e97a195d3168ac0659cf0e432e5a3f3" kind="function"><name>IdleState</name></member>
+    <member refid="class_idle_state_1ab2a535f0b86b5797c769f1d5eb28b048" kind="function"><name>~IdleState</name></member>
+    <member refid="class_idle_state_1afdcd2adb487430001e6dc6c6a551a4ca" kind="function"><name>run</name></member>
+    <member refid="class_idle_state_1a8075ca91f96ef257c18c2b70ab31a134" kind="function"><name>standby</name></member>
+  </compound>
+  <compound refid="class_ready_state" kind="class"><name>ReadyState</name>
+    <member refid="class_ready_state_1a0c48be71f7e72782579cd50e2106e3d9" kind="function"><name>ReadyState</name></member>
+    <member refid="class_ready_state_1ae0580c88a2284731a2f6530c7fa1a6fd" kind="function"><name>~ReadyState</name></member>
+    <member refid="class_ready_state_1ac1ec1d5eee5d64f4c8a02d8e62b5dd81" kind="function"><name>run</name></member>
+    <member refid="class_ready_state_1ab0aa3fd9ccff5ff777e2e373e17fe2a0" kind="function"><name>standby</name></member>
+    <member refid="class_ready_state_1ace59ae09ed80c84e4a415ec7c50f7d1d" kind="function"><name>freezineg</name></member>
+    <member refid="class_ready_state_1af2b95c8d203e9757d30ca93d5e91c05e" kind="function"><name>settings</name></member>
+  </compound>
+  <compound refid="class_settings_state" kind="class"><name>SettingsState</name>
+    <member refid="class_settings_state_1a0039be756cbdc958613eca25edb2cb99" kind="function"><name>SettingsState</name></member>
+    <member refid="class_settings_state_1ad4644afc565db26be22a49189b1a4189" kind="function"><name>~SettingsState</name></member>
+    <member refid="class_settings_state_1aa0375b093bf59772d09fbbb9673c56a5" kind="function"><name>run</name></member>
+    <member refid="class_settings_state_1a7ce6211f9229d5e4375613c5379ce00f" kind="function"><name>standby</name></member>
+    <member refid="class_settings_state_1ab6d3bfaee56f2a6349649b2c15418e95" kind="function"><name>ready</name></member>
+  </compound>
+  <compound refid="class_standby_state" kind="class"><name>StandbyState</name>
+    <member refid="class_standby_state_1ac34a52fd753807179e993b0fe3902bd5" kind="function"><name>StandbyState</name></member>
+    <member refid="class_standby_state_1a090c2da561bdd8d597c843747c5fa895" kind="function"><name>~StandbyState</name></member>
+    <member refid="class_standby_state_1a8b52ee3685ba132c7b196e9320bd1b19" kind="function"><name>run</name></member>
+    <member refid="class_standby_state_1ab50d85be40d59f2598393e074385d0f4" kind="function"><name>settings</name></member>
+    <member refid="class_standby_state_1a909234de69dc57299ebf3b174d3153d0" kind="function"><name>ready</name></member>
+  </compound>
+  <compound refid="class_state" kind="class"><name>State</name>
+    <member refid="class_state_1ab02228b740ff4b97de97c01bf9251139" kind="variable"><name>m_name</name></member>
+    <member refid="class_state_1a42e234d79ea59b0b88957b20b8796c3f" kind="function"><name>State</name></member>
+    <member refid="class_state_1afab438d92b90dc18d194dbd9c9c8bab3" kind="function"><name>~State</name></member>
+    <member refid="class_state_1a1b5758d9085b94efb79b2ae0c08e1f8f" kind="function"><name>run</name></member>
+    <member refid="class_state_1a96d293f9fbe271a9729814c68ad1d675" kind="function"><name>idle</name></member>
+    <member refid="class_state_1a8168a2663f5ffd69111a389bc1f0a55d" kind="function"><name>standby</name></member>
+    <member refid="class_state_1a3789289ed733d94430f848be012b83f5" kind="function"><name>settings</name></member>
+    <member refid="class_state_1a56fdf379cb521c3cf6af32351c4c93fe" kind="function"><name>ready</name></member>
+    <member refid="class_state_1abb3b96c3af31002d1fa14b158b25fbe6" kind="function"><name>freezineg</name></member>
+    <member refid="class_state_1a03dfdcd7ce1eb54be168b27e7141e39c" kind="function"><name>getName</name></member>
+  </compound>
+  <compound refid="class_state_machine" kind="class"><name>StateMachine</name>
+    <member refid="class_state_machine_1adf6eecb0ab7a5a648984eafa01575e05" kind="enum"><name>state_</name></member>
+    <member refid="class_state_machine_1adf6eecb0ab7a5a648984eafa01575e05a719252e4af3f2d4d400138ed8a563978" kind="enumvalue"><name>IDLE</name></member>
+    <member refid="class_state_machine_1adf6eecb0ab7a5a648984eafa01575e05aafb0d174faf70902e9c837b5be0f68c0" kind="enumvalue"><name>STANDBY</name></member>
+    <member refid="class_state_machine_1adf6eecb0ab7a5a648984eafa01575e05a77d6440247deb77e0de296ff9a6be0f0" kind="enumvalue"><name>READY</name></member>
+    <member refid="class_state_machine_1adf6eecb0ab7a5a648984eafa01575e05a64b20ddf61a980cf18e135d5683a0cac" kind="enumvalue"><name>FREEZING</name></member>
+    <member refid="class_state_machine_1adf6eecb0ab7a5a648984eafa01575e05a2f1d06f5c007a388f9f527704953d2f2" kind="enumvalue"><name>SETTINGS</name></member>
+    <member refid="class_state_machine_1ad229860b7e18bb96db926449fb15ba1b" kind="variable"><name>m_pState</name></member>
+    <member refid="class_state_machine_1a782375a77a78b3edd69c7aad3c3e6cea" kind="variable"><name>m_pIdle</name></member>
+    <member refid="class_state_machine_1a715acc47b83849c68e6a7368deaa6e63" kind="variable"><name>m_pStandby</name></member>
+    <member refid="class_state_machine_1a4e1bf3dd6e58cfffabde5a5363601b06" kind="variable"><name>m_pReady</name></member>
+    <member refid="class_state_machine_1a95519800a9a6152f3a9faa85ff8463e7" kind="variable"><name>m_pFreezing</name></member>
+    <member refid="class_state_machine_1a1eb4d49bcd7fd3ac01dcf99710673285" kind="variable"><name>m_pSettings</name></member>
+    <member refid="class_state_machine_1a2fb07002510ea9141019559750acfab8" kind="function"><name>StateMachine</name></member>
+    <member refid="class_state_machine_1ab56b97149281d3f87cbe6048a286945b" kind="function"><name>run</name></member>
+    <member refid="class_state_machine_1a495969735d95c9b8f93d8e96e1e39312" kind="function"><name>idle</name></member>
+    <member refid="class_state_machine_1a82415f9d0892c7a54951c59eabd44f61" kind="function"><name>standby</name></member>
+    <member refid="class_state_machine_1aaa24b3d5015b8dfe48805dae0a8ed415" kind="function"><name>ready</name></member>
+    <member refid="class_state_machine_1ae731b2567d3992b25b28175fbfff5c9d" kind="function"><name>freezing</name></member>
+    <member refid="class_state_machine_1aae5c568683edbbc20cb3b419865dfe53" kind="function"><name>settings</name></member>
+    <member refid="class_state_machine_1a42965d6b5b855af5b8cb73c07d02035e" kind="function"><name>changeState</name></member>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="_freezing_state_8h" kind="file"><name>FreezingState.h</name>
+  </compound>
+  <compound refid="_idle_state_8h" kind="file"><name>IdleState.h</name>
+  </compound>
+  <compound refid="_ready_state_8h" kind="file"><name>ReadyState.h</name>
+  </compound>
+  <compound refid="_settings_state_8h" kind="file"><name>SettingsState.h</name>
+  </compound>
+  <compound refid="_standby_state_8h" kind="file"><name>StandbyState.h</name>
+  </compound>
+  <compound refid="_state_8h" kind="file"><name>State.h</name>
+  </compound>
+  <compound refid="_state_machine_8h" kind="file"><name>StateMachine.h</name>
+  </compound>
+  <compound refid="main_8cpp" kind="file"><name>main.cpp</name>
+    <member refid="main_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="_r_e_a_d_m_e_8md" kind="file"><name>README.md</name>
+  </compound>
+  <compound refid="_freezing_state_8cpp" kind="file"><name>FreezingState.cpp</name>
+  </compound>
+  <compound refid="_idle_state_8cpp" kind="file"><name>IdleState.cpp</name>
+  </compound>
+  <compound refid="_ready_state_8cpp" kind="file"><name>ReadyState.cpp</name>
+  </compound>
+  <compound refid="_settings_state_8cpp" kind="file"><name>SettingsState.cpp</name>
+  </compound>
+  <compound refid="_standby_state_8cpp" kind="file"><name>StandbyState.cpp</name>
+  </compound>
+  <compound refid="_state_8cpp" kind="file"><name>State.cpp</name>
+  </compound>
+  <compound refid="_state_machine_8cpp" kind="file"><name>StateMachine.cpp</name>
+  </compound>
+  <compound refid="md__d_1_git__state_pattern__state_pattern__r_e_a_d_m_e" kind="page"><name>md_D:_git_StatePattern_StatePattern_README</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>D:/git/StatePattern/StatePattern/include</name>
+  </compound>
+  <compound refid="dir_68267d1309a1af8e8297ef4c3efbcdba" kind="dir"><name>D:/git/StatePattern/StatePattern/src</name>
+  </compound>
+</doxygenindex>

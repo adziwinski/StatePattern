@@ -1,0 +1,53 @@
+\hypertarget{class_state_machine}{}\doxysection{State\+Machine Class Reference}
+\label{class_state_machine}\index{StateMachine@{StateMachine}}
+\doxysubsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_state_machine_adf6eecb0ab7a5a648984eafa01575e05}\label{class_state_machine_adf6eecb0ab7a5a648984eafa01575e05}} 
+enum {\bfseries state\+\_\+} \{ \newline
+{\bfseries I\+D\+LE}, 
+{\bfseries S\+T\+A\+N\+D\+BY}, 
+{\bfseries R\+E\+A\+DY}, 
+{\bfseries F\+R\+E\+E\+Z\+I\+NG}, 
+\newline
+{\bfseries S\+E\+T\+T\+I\+N\+GS}
+ \}
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_state_machine_ab56b97149281d3f87cbe6048a286945b}\label{class_state_machine_ab56b97149281d3f87cbe6048a286945b}} 
+void {\bfseries run} ()
+\item 
+\mbox{\Hypertarget{class_state_machine_a495969735d95c9b8f93d8e96e1e39312}\label{class_state_machine_a495969735d95c9b8f93d8e96e1e39312}} 
+void {\bfseries idle} ()
+\item 
+\mbox{\Hypertarget{class_state_machine_a82415f9d0892c7a54951c59eabd44f61}\label{class_state_machine_a82415f9d0892c7a54951c59eabd44f61}} 
+void {\bfseries standby} ()
+\item 
+\mbox{\Hypertarget{class_state_machine_aaa24b3d5015b8dfe48805dae0a8ed415}\label{class_state_machine_aaa24b3d5015b8dfe48805dae0a8ed415}} 
+void {\bfseries ready} ()
+\item 
+\mbox{\Hypertarget{class_state_machine_ae731b2567d3992b25b28175fbfff5c9d}\label{class_state_machine_ae731b2567d3992b25b28175fbfff5c9d}} 
+void {\bfseries freezing} ()
+\item 
+\mbox{\Hypertarget{class_state_machine_aae5c568683edbbc20cb3b419865dfe53}\label{class_state_machine_aae5c568683edbbc20cb3b419865dfe53}} 
+void {\bfseries settings} ()
+\item 
+void \mbox{\hyperlink{class_state_machine_a42965d6b5b855af5b8cb73c07d02035e}{change\+State}} (state\+\_\+ state)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_state_machine_a42965d6b5b855af5b8cb73c07d02035e}\label{class_state_machine_a42965d6b5b855af5b8cb73c07d02035e}} 
+\index{StateMachine@{StateMachine}!changeState@{changeState}}
+\index{changeState@{changeState}!StateMachine@{StateMachine}}
+\doxysubsubsection{\texorpdfstring{changeState()}{changeState()}}
+{\footnotesize\ttfamily void State\+Machine\+::change\+State (\begin{DoxyParamCaption}\item[{state\+\_\+}]{state }\end{DoxyParamCaption})}
+
+this code can\textquotesingle{}t meet M\+I\+S\+RA C++ 2008 delete m\+\_\+p\+State; if (state==I\+D\+LE)\{ m\+\_\+p\+State = new \mbox{\hyperlink{class_idle_state}{Idle\+State()}}; \} if (state==S\+T\+A\+N\+D\+BY)\{ m\+\_\+p\+State = new \mbox{\hyperlink{class_settings_state}{Settings\+State()}}; \} if (state==R\+E\+A\+DY)\{ m\+\_\+p\+State = new \mbox{\hyperlink{class_ready_state}{Ready\+State()}}; \} if (state==F\+R\+E\+E\+Z\+I\+NG)\{ m\+\_\+p\+State = new \mbox{\hyperlink{class_freezing_state}{Freezing\+State()}}; \} if (state==S\+E\+T\+T\+I\+N\+GS)\{ m\+\_\+p\+State = new \mbox{\hyperlink{class_settings_state}{Settings\+State()}}; \}
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/git/\+State\+Pattern/\+State\+Pattern/include/State\+Machine.\+h\item 
+D\+:/git/\+State\+Pattern/\+State\+Pattern/src/State\+Machine.\+cpp\end{DoxyCompactItemize}

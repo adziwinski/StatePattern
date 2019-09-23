@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="_r_e_a_d_m_e_8md" kind="file" language="Markdown">
+    <compoundname>README.md</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline><highlight class="normal">#<sp/>StatePattern</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>General<sp/>establishment</highlight></codeline>
+<codeline><highlight class="normal">1.<sp/>I&apos;m<sp/>looking<sp/>for<sp/>the<sp/>way<sp/>to<sp/>use<sp/>State<sp/>Pattern<sp/>without<sp/>dynamic<sp/>memory<sp/>allocation.<sp/>It&apos;s<sp/>important<sp/>for<sp/>compliance<sp/>with<sp/>MISRA<sp/>standard.</highlight></codeline>
+<codeline><highlight class="normal">2.<sp/>State<sp/>machine<sp/>should<sp/>be<sp/>safe.<sp/>It<sp/>can&apos;t<sp/>allow<sp/>to<sp/>change<sp/>state<sp/>accidentialy.<sp/></highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Program<sp/>description</highlight></codeline>
+<codeline><highlight class="normal">The<sp/>passes<sp/>between<sp/>states<sp/>are<sp/>only<sp/>allowed<sp/>on<sp/>way<sp/>shown<sp/>on<sp/>diagram.<sp/></highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">![](StateMachine.png)</highlight></codeline>
+    </programlisting>
+    <location file="D:/git/StatePattern/StatePattern/README.md"/>
+  </compounddef>
+</doxygen>

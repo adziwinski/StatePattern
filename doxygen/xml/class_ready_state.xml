@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="class_ready_state" kind="class" language="C++" prot="public">
+    <compoundname>ReadyState</compoundname>
+    <basecompoundref refid="class_state" prot="public" virt="non-virtual">State</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ready_state_1a0c48be71f7e72782579cd50e2106e3d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ReadyState::ReadyState</definition>
+        <argsstring>()</argsstring>
+        <name>ReadyState</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/StatePattern/StatePattern/include/ReadyState.h" line="11" column="9" bodyfile="D:/git/StatePattern/StatePattern/src/ReadyState.cpp" bodystart="3" bodyend="6"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ready_state_1ae0580c88a2284731a2f6530c7fa1a6fd" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>ReadyState::~ReadyState</definition>
+        <argsstring>()</argsstring>
+        <name>~ReadyState</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/StatePattern/StatePattern/include/ReadyState.h" line="12" column="17" bodyfile="D:/git/StatePattern/StatePattern/src/ReadyState.cpp" bodystart="8" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ready_state_1ac1ec1d5eee5d64f4c8a02d8e62b5dd81" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ReadyState::run</definition>
+        <argsstring>(StateMachine *stateMachine)</argsstring>
+        <name>run</name>
+        <reimplements refid="class_state_1a1b5758d9085b94efb79b2ae0c08e1f8f">run</reimplements>
+        <param>
+          <type><ref refid="class_state_machine" kindref="compound">StateMachine</ref> *</type>
+          <declname>stateMachine</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/StatePattern/StatePattern/include/ReadyState.h" line="14" column="22" bodyfile="D:/git/StatePattern/StatePattern/src/ReadyState.cpp" bodystart="13" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ready_state_1ab0aa3fd9ccff5ff777e2e373e17fe2a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ReadyState::standby</definition>
+        <argsstring>(StateMachine *stateMachine)</argsstring>
+        <name>standby</name>
+        <reimplements refid="class_state_1a8168a2663f5ffd69111a389bc1f0a55d">standby</reimplements>
+        <param>
+          <type><ref refid="class_state_machine" kindref="compound">StateMachine</ref> *</type>
+          <declname>stateMachine</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/StatePattern/StatePattern/include/ReadyState.h" line="16" column="22" bodyfile="D:/git/StatePattern/StatePattern/src/ReadyState.cpp" bodystart="15" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ready_state_1ace59ae09ed80c84e4a415ec7c50f7d1d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ReadyState::freezineg</definition>
+        <argsstring>(StateMachine *stateMachine)</argsstring>
+        <name>freezineg</name>
+        <reimplements refid="class_state_1abb3b96c3af31002d1fa14b158b25fbe6">freezineg</reimplements>
+        <param>
+          <type><ref refid="class_state_machine" kindref="compound">StateMachine</ref> *</type>
+          <declname>stateMachine</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/StatePattern/StatePattern/include/ReadyState.h" line="17" column="22" bodyfile="D:/git/StatePattern/StatePattern/src/ReadyState.cpp" bodystart="19" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ready_state_1af2b95c8d203e9757d30ca93d5e91c05e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ReadyState::settings</definition>
+        <argsstring>(StateMachine *stateMachine)</argsstring>
+        <name>settings</name>
+        <reimplements refid="class_state_1a3789289ed733d94430f848be012b83f5">settings</reimplements>
+        <param>
+          <type><ref refid="class_state_machine" kindref="compound">StateMachine</ref> *</type>
+          <declname>stateMachine</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/git/StatePattern/StatePattern/include/ReadyState.h" line="18" column="22" bodyfile="D:/git/StatePattern/StatePattern/src/ReadyState.cpp" bodystart="23" bodyend="25"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>State</label>
+        <link refid="class_state"/>
+      </node>
+      <node id="1">
+        <label>ReadyState</label>
+        <link refid="class_ready_state"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>State</label>
+        <link refid="class_state"/>
+      </node>
+      <node id="1">
+        <label>ReadyState</label>
+        <link refid="class_ready_state"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/git/StatePattern/StatePattern/include/ReadyState.h" line="9" column="1" bodyfile="D:/git/StatePattern/StatePattern/include/ReadyState.h" bodystart="8" bodyend="23"/>
+    <listofallmembers>
+      <member refid="class_ready_state_1ace59ae09ed80c84e4a415ec7c50f7d1d" prot="public" virt="virtual"><scope>ReadyState</scope><name>freezineg</name></member>
+      <member refid="class_state_1a03dfdcd7ce1eb54be168b27e7141e39c" prot="public" virt="non-virtual"><scope>ReadyState</scope><name>getName</name></member>
+      <member refid="class_state_1a96d293f9fbe271a9729814c68ad1d675" prot="public" virt="virtual"><scope>ReadyState</scope><name>idle</name></member>
+      <member refid="class_state_1a56fdf379cb521c3cf6af32351c4c93fe" prot="public" virt="virtual"><scope>ReadyState</scope><name>ready</name></member>
+      <member refid="class_ready_state_1a0c48be71f7e72782579cd50e2106e3d9" prot="public" virt="non-virtual"><scope>ReadyState</scope><name>ReadyState</name></member>
+      <member refid="class_ready_state_1ac1ec1d5eee5d64f4c8a02d8e62b5dd81" prot="public" virt="virtual"><scope>ReadyState</scope><name>run</name></member>
+      <member refid="class_ready_state_1af2b95c8d203e9757d30ca93d5e91c05e" prot="public" virt="virtual"><scope>ReadyState</scope><name>settings</name></member>
+      <member refid="class_ready_state_1ab0aa3fd9ccff5ff777e2e373e17fe2a0" prot="public" virt="virtual"><scope>ReadyState</scope><name>standby</name></member>
+      <member refid="class_state_1a42e234d79ea59b0b88957b20b8796c3f" prot="public" virt="non-virtual"><scope>ReadyState</scope><name>State</name></member>
+      <member refid="class_ready_state_1ae0580c88a2284731a2f6530c7fa1a6fd" prot="public" virt="virtual"><scope>ReadyState</scope><name>~ReadyState</name></member>
+      <member refid="class_state_1afab438d92b90dc18d194dbd9c9c8bab3" prot="public" virt="virtual"><scope>ReadyState</scope><name>~State</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

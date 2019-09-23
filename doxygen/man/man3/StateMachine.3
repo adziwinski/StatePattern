@@ -1,0 +1,48 @@
+.TH "StateMachine" 3 "Mon Sep 23 2019" "StatePatternDoxygen" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+StateMachine
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Types"
+
+.in +1c
+.ti -1c
+.RI "enum \fBstate_\fP { \fBIDLE\fP, \fBSTANDBY\fP, \fBREADY\fP, \fBFREEZING\fP, \fBSETTINGS\fP }"
+.br
+.in -1c
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBrun\fP ()"
+.br
+.ti -1c
+.RI "void \fBidle\fP ()"
+.br
+.ti -1c
+.RI "void \fBstandby\fP ()"
+.br
+.ti -1c
+.RI "void \fBready\fP ()"
+.br
+.ti -1c
+.RI "void \fBfreezing\fP ()"
+.br
+.ti -1c
+.RI "void \fBsettings\fP ()"
+.br
+.ti -1c
+.RI "void \fBchangeState\fP (state_ state)"
+.br
+.in -1c
+.SH "Member Function Documentation"
+.PP 
+.SS "void StateMachine::changeState (state_ state)"
+this code can't meet MISRA C++ 2008 delete m_pState; if (state==IDLE){ m_pState = new \fBIdleState()\fP; } if (state==STANDBY){ m_pState = new \fBSettingsState()\fP; } if (state==READY){ m_pState = new \fBReadyState()\fP; } if (state==FREEZING){ m_pState = new \fBFreezingState()\fP; } if (state==SETTINGS){ m_pState = new \fBSettingsState()\fP; }
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for StatePatternDoxygen from the source code\&.
