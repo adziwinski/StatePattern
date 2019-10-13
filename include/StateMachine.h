@@ -24,7 +24,7 @@ class StateMachine
 
         StateMachine();
 
-//        virtual ~StateMachine();
+        virtual ~StateMachine();
 
         void run();
 
@@ -42,6 +42,7 @@ class StateMachine
     private:
 
     State * m_pState;
+
     State * m_pIdle;
     State * m_pStandby;
     State * m_pReady;

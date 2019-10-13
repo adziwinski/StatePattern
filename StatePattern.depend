@@ -9,7 +9,7 @@
 1569171179 d:\git\statepattern\statepattern\include\state.h
 	<string>
 
-1569200767 d:\git\statepattern\statepattern\include\statemachine.h
+1570377432 d:\git\statepattern\statepattern\include\statemachine.h
 	"State.h"
 	"../include/IdleState.h"
 	"../include/SettingsState.h"
@@ -50,7 +50,7 @@
 	"../include/State.h"
 	<iostream>
 
-1569200757 source:d:\git\statepattern\statepattern\src\statemachine.cpp
+1570377343 source:d:\git\statepattern\statepattern\src\statemachine.cpp
 	"../include/StateMachine.h"
 	<iostream>
 

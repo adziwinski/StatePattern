@@ -13,10 +13,14 @@ StateMachine::StateMachine(): m_pState(new IdleState())
     m_pSettings = new SettingsState();
 }
 
-//StateMachine::~StateMachine()
-//{
-//    delete m_pState;
-//}
+StateMachine::~StateMachine()
+{
+    delete m_pIdle;
+    delete m_pStandby;
+    delete m_pReady;
+    delete m_pFreezing;
+    delete m_pSettings;
+}
 
 void StateMachine::run(){
 
@@ -32,7 +36,7 @@ void StateMachine::settings(){m_pState->settings(this);}
 
 void StateMachine::changeState(state_ state){
 
-    std::cout << "changing from " << m_pState->getName() << " to ";
+    std::cout << "Changing from " << m_pState->getName() << " to ";
 
 /** this code can't meet MISRA C++ 2008
 //	delete m_pState;

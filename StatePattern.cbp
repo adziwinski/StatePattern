@@ -32,7 +32,21 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="include/FreezingState.h" />
+		<Unit filename="include/IdleState.h" />
+		<Unit filename="include/ReadyState.h" />
+		<Unit filename="include/SettingsState.h" />
+		<Unit filename="include/StandbyState.h" />
+		<Unit filename="include/State.h" />
+		<Unit filename="include/StateMachine.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src/FreezingState.cpp" />
+		<Unit filename="src/IdleState.cpp" />
+		<Unit filename="src/ReadyState.cpp" />
+		<Unit filename="src/SettingsState.cpp" />
+		<Unit filename="src/StandbyState.cpp" />
+		<Unit filename="src/State.cpp" />
+		<Unit filename="src/StateMachine.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />
