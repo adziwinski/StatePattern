@@ -22,34 +22,21 @@ In `myEnd` substate variables should be set to safe velues and controllers shoul
 
 ## Console output 
 
-`Illegal state transition from Idle to Idle`
-
-    `IdleState.myRun`
-
-    `IdleState.myEnd`
-
-`Changing from Idle to Standby state`
-
-    `StandbyState.myBegin`
-
-    `StandbyState.myRun`
-
-`Illegal state transition from Standby to Freezing`
-
-    `StandbyState.myRun`
-
-    `StandbyState.myEnd`
-
-`Changing from Standby to Ready state`
-
-    `ReadyState.myBegin`
-
-    `ReadyState.myRun`
-
-    `ReadyState.myEnd`
-
-`Changing from Ready to Freezing state`
-
-    `FreezingState.myBegin`
-
-    `FreezingState.myRun`
+```
+Illegal state transition from Idle to Idle
+    IdleState.myRun
+    IdleState.myEnd
+Changing from Idle to Standby state
+    StandbyState.myBegin
+    StandbyState.myRun
+Illegal state transition from Standby to Freezing
+    StandbyState.myRun
+    StandbyState.myEnd
+Changing from Standby to Ready state
+    ReadyState.myBegin
+    ReadyState.myRun
+    ReadyState.myEnd
+Changing from Ready to Freezing state
+    FreezingState.myBegin
+    FreezingState.myRun``
+```
