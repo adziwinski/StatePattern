@@ -3,7 +3,7 @@
 ## General establishments
 1. I'm looking for the way to use State Pattern without dynamic memory allocation. It's important for MISRA standard compliance.
 2. State machine should be safe. It can't allow to change state accidentialy. 
-3. Usege should be simple and safe. On state change every variable dipendend form current state should be set to safe value.
+3. Usege should be simple and safe. On state change every variable dependend form current state should be set to safe value.
 
 ## Program description
 The passes between states are only allowed on way shown on diagram. Other way suitable method from base class (State) is called. For example when we want change state directly from Standby to Freezing then following communicate is displayed: `Illegal state transition from Standby to Freezing`.
