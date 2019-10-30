@@ -1,16 +1,16 @@
 # depslib dependency file v1.0
-1572461956 source:d:\git\statepattern\statepattern\src\idlestate.cpp
+1572474778 source:d:\git\statepattern\statepattern\src\idlestate.cpp
 	"../include/IdleState.h"
 	<iostream>
 
-1572460609 d:\git\statepattern\statepattern\include\idlestate.h
+1572474824 d:\git\statepattern\statepattern\include\idlestate.h
 	"State.h"
 	"StateMachine.h"
 
-1572460611 d:\git\statepattern\statepattern\include\state.h
+1572474874 d:\git\statepattern\statepattern\include\state.h
 	<string>
 
-1572468618 d:\git\statepattern\statepattern\include\statemachine.h
+1572468810 d:\git\statepattern\statepattern\include\statemachine.h
 	"State.h"
 	"../include/IdleState.h"
 	"../include/SettingsState.h"

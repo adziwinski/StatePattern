@@ -25,3 +25,7 @@ void IdleState::standby(StateMachine * stateMachine){
     stateMachine->changeState(StateMachine::STANDBY);
 }
 
+void IdleState::service(StateMachine * stateMachine){
+    stateMachine->changeState(StateMachine::SERVICE);
+}
+

@@ -20,6 +20,8 @@ class State
         virtual void settings(StateMachine * stateMachine);
         virtual void ready(StateMachine * stateMachine);
         virtual void freezineg(StateMachine * stateMachine);
+        virtual void service(StateMachine * stateMachine);
+
 
         std::string getName() { return m_name; }
 

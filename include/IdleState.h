@@ -15,6 +15,7 @@ class IdleState : public State
         virtual void myEnd();
 
         virtual void standby(StateMachine * stateMachine);
+        virtual void service(StateMachine * stateMachine);
 
 
     protected:
