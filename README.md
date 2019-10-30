@@ -23,6 +23,10 @@ In `myRun` should be called functions needed normal working in current state - f
 In `myEnd` substate variables should be set to safe velues and controllers should be turn off. `myEnd` is called once - on the end of the state. 
 
 
+## UML
+
+![](UML_State_Machine.jpg)
+
 ## Console output 
 
 ```
