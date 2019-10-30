@@ -38,5 +38,5 @@ Changing from Standby to Ready state
     ReadyState.myEnd
 Changing from Ready to Freezing state
     FreezingState.myBegin
-    FreezingState.myRun``
+    FreezingState.myRun
 ```
