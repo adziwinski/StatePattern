@@ -1,4 +1,5 @@
 #include "../include/StandbyState.h"
+#include <iostream>
 
 StandbyState::StandbyState():State("Standby")
 {
@@ -10,8 +11,14 @@ StandbyState::~StandbyState()
     //dtor
 }
 
-void StandbyState::run(StateMachine * stateMachine){
-
+void StandbyState::myBegin(){
+    std::cout<<"    StandbyState.myBegin"<<std::endl;
+}
+void StandbyState::myRun(){
+    std::cout<<"    StandbyState.myRun"<<std::endl;
+}
+void StandbyState::myEnd(){
+    std::cout<<"    StandbyState.myEnd"<<std::endl;
 }
 
 void StandbyState::settings(StateMachine * stateMachine){

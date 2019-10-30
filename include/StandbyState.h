@@ -11,7 +11,9 @@ class StandbyState : public State
         StandbyState();
         virtual ~StandbyState();
 
-        virtual void run(StateMachine * stateMachine);
+        virtual void myBegin();
+        virtual void myRun();
+        virtual void myEnd();
 
         virtual void settings(StateMachine * stateMachine);
         virtual void ready(StateMachine * stateMachine);

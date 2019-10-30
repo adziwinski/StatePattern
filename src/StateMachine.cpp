@@ -22,12 +22,6 @@ StateMachine::~StateMachine()
     delete m_pSettings;
 }
 
-void StateMachine::run(){
-
-    cout<<"StateMachine::run()"<<endl;
-    m_pState->run(this);
-}
-
 void StateMachine::idle(){m_pState->idle(this);}
 void StateMachine::standby(){m_pState->standby(this);}
 void StateMachine::ready(){m_pState->ready(this);}
@@ -57,22 +51,25 @@ void StateMachine::changeState(state_ state){
 //    }
 */
 
-    if (state==IDLE){
+    m_pState->myEnd();
+    switch(state){
+    case IDLE:
         m_pState = m_pIdle;
-    }
-    if (state==STANDBY){
+        break;
+    case STANDBY:
         m_pState = m_pStandby;
-    }
-    if (state==READY){
+        break;
+    case READY:
         m_pState = m_pReady;
-    }
-    if (state==FREEZING){
+        break;
+    case FREEZING:
         m_pState = m_pFreezing;
-    }
-    if (state==SETTINGS){
+        break;
+    case SETTINGS:
         m_pState = m_pSettings;
+        break;
     }
-
     std::cout << m_pState->getName() << " state\n";
+    m_pState->myBegin();
 }
 

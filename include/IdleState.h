@@ -10,7 +10,9 @@ class IdleState : public State
         IdleState();
         virtual ~IdleState();
 
-        virtual void run(StateMachine * stateMachine);
+        virtual void myBegin();
+        virtual void myRun();
+        virtual void myEnd();
 
         virtual void standby(StateMachine * stateMachine);
 

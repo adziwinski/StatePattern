@@ -1,15 +1,16 @@
 # depslib dependency file v1.0
-1569195769 source:d:\git\statepattern\statepattern\src\idlestate.cpp
+1572461488 source:d:\git\statepattern\statepattern\src\idlestate.cpp
 	"../include/IdleState.h"
+	<iostream>
 
-1569193096 d:\git\statepattern\statepattern\include\idlestate.h
+1572460609 d:\git\statepattern\statepattern\include\idlestate.h
 	"State.h"
 	"StateMachine.h"
 
-1569171179 d:\git\statepattern\statepattern\include\state.h
+1572460611 d:\git\statepattern\statepattern\include\state.h
 	<string>
 
-1570377432 d:\git\statepattern\statepattern\include\statemachine.h
+1570373832 d:\git\statepattern\statepattern\include\statemachine.h
 	"State.h"
 	"../include/IdleState.h"
 	"../include/SettingsState.h"
@@ -17,44 +18,48 @@
 	"../include/ReadyState.h"
 	"../include/StandbyState.h"
 
-1569195798 source:d:\git\statepattern\statepattern\src\freezingstate.cpp
+1572461488 source:d:\git\statepattern\statepattern\src\freezingstate.cpp
 	"../include/FreezingState.h"
+	<iostream>
 
-1569169630 d:\git\statepattern\statepattern\include\freezingstate.h
+1572460514 d:\git\statepattern\statepattern\include\freezingstate.h
 	"State.h"
 	"StateMachine.h"
 
-1569195786 source:d:\git\statepattern\statepattern\src\readystate.cpp
+1572461488 source:d:\git\statepattern\statepattern\src\readystate.cpp
 	"../include/ReadyState.h"
+	<iostream>
 
-1569193096 d:\git\statepattern\statepattern\include\readystate.h
+1572460614 d:\git\statepattern\statepattern\include\readystate.h
 	"State.h"
 	"StateMachine.h"
 
-1569195812 source:d:\git\statepattern\statepattern\src\settingsstate.cpp
+1572461502 source:d:\git\statepattern\statepattern\src\settingsstate.cpp
 	"../include/SettingsState.h"
+	<iostream>
 
-1569169596 d:\git\statepattern\statepattern\include\settingsstate.h
+1572460613 d:\git\statepattern\statepattern\include\settingsstate.h
 	"State.h"
 	"StateMachine.h"
 	<string>
 
-1569200570 source:d:\git\statepattern\statepattern\src\standbystate.cpp
+1572461488 source:d:\git\statepattern\statepattern\src\standbystate.cpp
 	"../include/StandbyState.h"
+	<iostream>
 
-1569193096 d:\git\statepattern\statepattern\include\standbystate.h
+1572460612 d:\git\statepattern\statepattern\include\standbystate.h
 	"State.h"
 	"StateMachine.h"
 
-1569195837 source:d:\git\statepattern\statepattern\src\state.cpp
+1572461523 source:d:\git\statepattern\statepattern\src\state.cpp
 	"../include/State.h"
 	<iostream>
 
-1570377343 source:d:\git\statepattern\statepattern\src\statemachine.cpp
+1572461545 source:d:\git\statepattern\statepattern\src\statemachine.cpp
 	"../include/StateMachine.h"
 	<iostream>
 
-1569195990 source:d:\git\statepattern\statepattern\main.cpp
+1569192390 source:d:\git\statepattern\statepattern\main.cpp
 	"include/StateMachine.h"
 	<iostream>
 

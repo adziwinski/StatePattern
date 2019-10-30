@@ -1,4 +1,5 @@
 #include "../include/SettingsState.h"
+#include <iostream>
 
 SettingsState::SettingsState():State("Settings")
 {
@@ -10,7 +11,16 @@ SettingsState::~SettingsState()
     //dtor
 }
 
-void SettingsState::run(StateMachine * stateMachine){}
+
+void SettingsState::myBegin(){
+    std::cout<<"    SettingsState.myBegin"<<std::endl;
+}
+void SettingsState::myRun(){
+    std::cout<<"    SettingsState.myRun"<<std::endl;
+}
+void SettingsState::myEnd(){
+    std::cout<<"    SettingsState.myEnd"<<std::endl;
+}
 
 void SettingsState::standby(StateMachine * stateMachine){
     stateMachine->changeState(StateMachine::STANDBY);

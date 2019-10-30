@@ -9,7 +9,10 @@ class FreezingState : public State
     public:
         FreezingState();
         virtual ~FreezingState();
-        virtual void run(StateMachine * stateMachine);
+
+        virtual void myBegin();
+        virtual void myRun();
+        virtual void myEnd();
 
         virtual void ready(StateMachine * stateMachine);
 

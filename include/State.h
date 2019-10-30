@@ -11,7 +11,9 @@ class State
         State(std::string);
         virtual ~State();
 
-        virtual void run(StateMachine * stateMachine) = 0;
+        virtual void myBegin() = 0;
+        virtual void myRun() = 0;
+        virtual void myEnd() = 0;
 
         virtual void idle(StateMachine * stateMachine);
         virtual void standby(StateMachine * stateMachine);

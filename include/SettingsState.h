@@ -11,7 +11,9 @@ class SettingsState : public State
         SettingsState();
         virtual ~SettingsState();
 
-        virtual void run(StateMachine * stateMachine);
+        virtual void myBegin();
+        virtual void myRun();
+        virtual void myEnd();
 
         virtual void standby(StateMachine * stateMachine);
         virtual void ready(StateMachine * stateMachine);

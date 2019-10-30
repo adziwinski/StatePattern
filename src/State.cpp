@@ -11,10 +11,6 @@ State::~State()
     //dtor
 }
 
-void State::run(StateMachine *){
-    std::cout << "Illegal state transition from " << getName() << " to run\n";
-}
-
 void State::idle(StateMachine * stateMachine){
     std::cout << "Illegal state transition from " << getName() << " to Idle\n";
 }

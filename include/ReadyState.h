@@ -11,7 +11,9 @@ class ReadyState : public State
         ReadyState();
         virtual ~ReadyState();
 
-        virtual void run(StateMachine * stateMachine);
+        virtual void myBegin();
+        virtual void myRun();
+        virtual void myEnd();
 
         virtual void standby(StateMachine * stateMachine);
         virtual void freezineg(StateMachine * stateMachine);

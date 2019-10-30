@@ -1,4 +1,5 @@
 #include "../include/ReadyState.h"
+#include <iostream>
 
 ReadyState::ReadyState():State("Ready")
 {
@@ -10,8 +11,15 @@ ReadyState::~ReadyState()
     //dtor
 }
 
-void ReadyState::run(StateMachine * stateMachine){}
-
+void ReadyState::myBegin(){
+    std::cout<<"    ReadyState.myBegin"<<std::endl;
+}
+void ReadyState::myRun(){
+    std::cout<<"    ReadyState.myRun"<<std::endl;
+}
+void ReadyState::myEnd(){
+    std::cout<<"    ReadyState.myEnd"<<std::endl;
+}
 void ReadyState::standby(StateMachine * stateMachine){
     stateMachine->changeState(StateMachine::STANDBY);
 }
