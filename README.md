@@ -13,13 +13,13 @@ The passes between states are only allowed on way shown on diagram. Other way su
 Moreover every state has 3 substates:
 
 - `myBegin`
-
 - `myRun`
-
 - `myEnd`
 
-In `myBegin` variables dependend from current state should be initialized and controllers should be started - for example initializing measurment controller. `myBegin` is called once - on the beggining of the state. 
+In `myBegin` variables dependend from current state should be initialized and controllers should be started - for example initializing measurment controller. `myBegin` is called once - on the beggining of the state.
+
 In `myRun` should be called functions needed normal working in current state - for example cyclic measurement and sending the values. `myRun` can be called many times belong whole the state lifecycle.
+
 In `myEnd` substate variables should be set to safe velues and controllers should be turn off. `myEnd` is called once - on the end of the state. 
 
 
