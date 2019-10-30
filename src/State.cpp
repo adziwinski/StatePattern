@@ -31,6 +31,10 @@ void State::freezineg(StateMachine * stateMachine){
     std::cout << "Illegal state transition from " << getName() << " to Freezing\n";
 }
 
+void State::service(StateMachine * stateMachine){
+    std::cout << "Illegal state transition from " << getName() << " to Service\n";
+}
+
 
 
 

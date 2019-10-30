@@ -11,6 +11,7 @@ StateMachine::StateMachine(): m_pState(new IdleState())
     m_pReady = new ReadyState();
     m_pFreezing = new FreezingState();
     m_pSettings = new SettingsState();
+    m_pService = new ServiceState();
 }
 
 StateMachine::~StateMachine()
@@ -20,6 +21,7 @@ StateMachine::~StateMachine()
     delete m_pReady;
     delete m_pFreezing;
     delete m_pSettings;
+    delete m_pService;
 }
 
 void StateMachine::idle(){
@@ -40,6 +42,9 @@ void StateMachine::freezing(){
 }
 void StateMachine::settings(){
     m_pState->settings(this);
+}
+void StateMachine::service(){
+    m_pState->service(this);
     m_pState->myRun();
 }
 
@@ -62,6 +67,9 @@ void StateMachine::changeState(state_ state){
 //    if (state==SETTINGS){
 //        m_pState = new SettingsState();
 //    }
+//    if (state==SERVICE){
+//        m_pState = new ServiceState();
+//    }
 */
 
     m_pState->myEnd();
@@ -81,6 +89,9 @@ void StateMachine::changeState(state_ state){
         m_pState = m_pFreezing;
         break;
     case SETTINGS:
+        m_pState = m_pSettings;
+        break;
+    case SERVICE:
         m_pState = m_pSettings;
         break;
     }
