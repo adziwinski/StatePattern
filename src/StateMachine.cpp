@@ -22,15 +22,28 @@ StateMachine::~StateMachine()
     delete m_pSettings;
 }
 
-void StateMachine::idle(){m_pState->idle(this);}
-void StateMachine::standby(){m_pState->standby(this);}
-void StateMachine::ready(){m_pState->ready(this);}
-void StateMachine::freezing(){m_pState->freezineg(this);}
-void StateMachine::settings(){m_pState->settings(this);}
+void StateMachine::idle(){
+    m_pState->idle(this);
+    m_pState->myRun();
+}
+void StateMachine::standby(){
+    m_pState->standby(this);
+    m_pState->myRun();
+}
+void StateMachine::ready(){
+    m_pState->ready(this);
+    m_pState->myRun();
+}
+void StateMachine::freezing(){
+    m_pState->freezineg(this);
+    m_pState->myRun();
+}
+void StateMachine::settings(){
+    m_pState->settings(this);
+    m_pState->myRun();
+}
 
 void StateMachine::changeState(state_ state){
-
-    std::cout << "Changing from " << m_pState->getName() << " to ";
 
 /** this code can't meet MISRA C++ 2008
 //	delete m_pState;
@@ -52,6 +65,8 @@ void StateMachine::changeState(state_ state){
 */
 
     m_pState->myEnd();
+
+    std::cout << "Changing from " << m_pState->getName() << " to ";
     switch(state){
     case IDLE:
         m_pState = m_pIdle;
@@ -70,6 +85,7 @@ void StateMachine::changeState(state_ state){
         break;
     }
     std::cout << m_pState->getName() << " state\n";
+
     m_pState->myBegin();
 }
 
